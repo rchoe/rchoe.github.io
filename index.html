@@ -9,7 +9,9 @@
             background-color: #f4f4f4;
             margin: 0;
             padding: 20px;
-            font-size: 60px;
+            /*font-size: 60px;*/
+            font-size: 36px;
+            text-align: center;
         }
         table {
             width: 100%;
@@ -18,6 +20,19 @@
         }
         img {
             width: 45px;
+        }
+        tr {
+            vertical-align: baseline;
+            height: 124px;
+        }
+        tr:first-of-type {
+            height: 44px;
+        }
+        td > div {
+            font-size: 60px;
+        }
+        .today {
+            background-color: #9c9cff;
         }
     </style>
   </head>
@@ -36,8 +51,8 @@
       <tr>
         <td>30</td>
         <td>31</td>
-        <td>1<img src="https://placehold.co/12" alt=""></td>
-        <td>2<img src="Iron_1_Rank.png" alt=""></td>
+        <td>1</td>
+        <td>2</td>
         <td>3</td>
         <td>4</td>
         <td>5</td>
@@ -64,14 +79,14 @@
         <td>20</td>
         <td>21</td>
         <td>22</td>
-        <td>23</td>
+        <td>23<div>🏃</div></td>
         <td>24</td>
         <td>25</td>
         <td>26</td>
       </tr>
       <tr>
-        <td>27</td>
-        <td>28</td>
+        <td>27<div>🏋</div></td>
+        <td class="today">28</td>
         <td>29</td>
         <td>30</td>
         <td>31</td>
